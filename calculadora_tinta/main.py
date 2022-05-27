@@ -5,8 +5,8 @@ calc = Calculadora()  # criando objeto da classe calculadora
 
 comodo = Comodo(
     input('Digite a largura: '),
-    input('Digite a profundidade: ')
-)
+    input('Digite a profundidade: '))
+
 #calc.area_parede: float = 2*(largura + profundidade) * altura  Obs:
 
 print(f'A área das paredes é: {calc.calcular_area_parede(comodo)}')

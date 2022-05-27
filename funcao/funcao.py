@@ -12,3 +12,15 @@ horas = input('Quantidade de horas')
 taxa = input('Valor/hora')
 valor = calcular_pagamento(horas, taxa)
 print(valor)
+
+"""
+Exemplo de uma função simples
+n1 = input('Insira um valor: ')
+n2 = input('Insira um valor: ')
+
+def somar<---nome(n1, n2)<--- parâmetro/argumentos da função:
+    soma<---variavel para somar = int(n1) + int(n2)
+    print(soma) <--- função para exibir a soma
+    return somar <--- retorna o valor para a função criada
+somar(n1, n2)
+"""
